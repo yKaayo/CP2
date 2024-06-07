@@ -1,0 +1,58 @@
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--page-width);
+    margin: var(--margin);
+    padding: var(--padding);
+    gap: 2rem;
+}
+
+/* Text */
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 45%;
+    gap: 3rem;
+    
+    h2, span {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    
+    span {
+        color: var(--color-light-blue);
+        margin-left: 1rem;
+    }
+
+    p {
+        width: var(--width-p);
+    }
+
+    a span {
+        font-size: 2rem;
+    }
+}
+
+/* Img */
+.img {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-purple);
+    border-radius: var(--background-img-border-radius);
+    height: 40rem;
+    width: 45%;
+    transition: var(--transition);
+
+    img {
+        border-radius: var(--img-border-radius);
+    }
+}
+
+.img:hover {
+    transform: var(--transform-img);
+}

@@ -1,0 +1,63 @@
+/* Container */
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--page-width);
+    margin: 1rem auto;
+
+    i {
+        font-size: 2.5rem;
+    }
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    color: var(--color-light-blue);
+
+    h1 {
+        font-weight: 700;
+    }
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    
+    a {
+        transition: var(--transition);
+    }
+    
+    a:hover {
+        color: var(--color-light-blue);
+    }
+}
+
+/* Buttom */
+.btn {
+    display: flex;
+    align-items: center;
+    padding: var(--button-padding);
+    border: .1rem solid var(--color-light-blue);
+    border-radius: var(--button-border-radius);
+    color: var(--color-light-blue);
+    transition: var(--transition);
+}
+
+.btn:hover {
+    color: var(--color-dark-blue);
+    background-color: var(--color-white);
+    border-color: var(--color-white);
+}
